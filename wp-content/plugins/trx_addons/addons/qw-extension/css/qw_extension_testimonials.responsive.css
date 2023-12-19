@@ -1,0 +1,109 @@
+@media (max-width: 1439px) {
+  /* QW Big */
+  .sc_testimonials_qw-big .slider_container.slider_one .sc_testimonials_item {
+    padding: 0 10%;
+  }
+}
+@media (max-width: 1279px) {
+  /* QW Date */
+  .sc_testimonials_qw-date .sc_testimonials_item {
+    padding: 30px 20px;
+  }
+  .sc_testimonials_qw-date .sc_testimonials_item_author .sc_testimonials_item_author_avatar {
+    width: 50px;
+    height: 50px;
+  }
+  .sc_testimonials_qw-date .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_title + .sc_testimonials_item_author_subtitle {
+    margin-top: 3px;
+  }
+  .sc_testimonials_qw-date .sc_testimonials_item_author + .sc_testimonials_item_content {
+    margin-top: 15px;
+  }
+
+  /* QW Big */
+  .sc_testimonials_qw-big [class*="column"] .sc_testimonials_item_content {
+    font-size: 1.2em;
+  }
+  .sc_testimonials_qw-big [class*="column"] .sc_testimonials_item_content + .sc_testimonials_item_author {
+    margin: 1.2em 0 0 0;
+  }
+  .sc_testimonials_qw-big .slider_one .sc_testimonials_item_content,
+  .sc_testimonials_qw-big .sc_testimonials_item_content {
+    font-size: 2.7em;
+    line-height: 1.1em;
+  }
+  .sc_testimonials_qw-big .slider_one .sc_testimonials_item_content + .sc_testimonials_item_author,
+  .sc_testimonials_qw-big .sc_testimonials_item_content + .sc_testimonials_item_author {
+    margin-top: 1.5em;
+  }
+  .sc_testimonials_qw-big .slider_container.slider_controls_side .slider_controls_wrap > a:before,
+  .sc_testimonials_qw-big .slider_outer_controls_side .slider_controls_wrap > a:before,
+  .sc_testimonials_qw-big .slider_outer_controls_outside .slider_controls_wrap > a:before,
+  .sc_testimonials_qw-big .slider_outer_controls_top .slider_controls_wrap > a:before,
+  .sc_testimonials_qw-big .slider_outer_controls_bottom .slider_controls_wrap > a:before {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  /* QW Date */
+  .sc_testimonials_qw-date .sc_testimonials_item_content .sc_testimonials_item_date,
+  .sc_testimonials_qw-date .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_subtitle {
+    font-size: 1rem;
+  }
+
+  /* QW Big */
+  .sc_testimonials_qw-big .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_subtitle {
+    font-size: 1rem;
+  }
+  .sc_testimonials_qw-big .slider_one .sc_testimonials_item_content,
+  .sc_testimonials_qw-big .sc_testimonials_item_content {
+    font-size: 2.2em;
+  }
+}
+@media (max-width: 767px) {
+  /* QW Date */
+  .sc_testimonials_qw-date .sc_testimonials_item {
+    padding: 25px 20px;
+  }
+  .sc_testimonials_qw-date .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_title {
+    font-size: 1rem;
+  }
+
+  /* QW Big */
+  .sc_testimonials_qw-big .sc_testimonials_item_content,
+  .sc_testimonials_qw-big .slider_one .sc_testimonials_item_content {
+    font-size: 1.9em;
+  }
+  .sc_testimonials_qw-big .sc_testimonials_item_content + .sc_testimonials_item_author,
+  .sc_testimonials_qw-big .slider_one .sc_testimonials_item_content + .sc_testimonials_item_author {
+    margin-top: 1.2em;
+  }
+  .sc_testimonials_qw-big .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_title {
+    font-size: 1rem;
+  }
+  .sc_testimonials_qw-big .slider_container.slider_controls_side .slider_controls_wrap > a:before,
+  .sc_testimonials_qw-big .slider_outer_controls_side .slider_controls_wrap > a:before,
+  .sc_testimonials_qw-big .slider_outer_controls_outside .slider_controls_wrap > a:before,
+  .sc_testimonials_qw-big .slider_outer_controls_top .slider_controls_wrap > a:before,
+  .sc_testimonials_qw-big .slider_outer_controls_bottom .slider_controls_wrap > a:before {
+    font-size: 15px;
+  }
+}
+@media (max-width: 479px) {
+  /* QW Big */
+  .sc_testimonials_qw-big [class*="column"] .sc_testimonials_item_content + .sc_testimonials_item_author {
+    margin: 1em 0 0 0;
+  }
+  .sc_testimonials_qw-big .sc_testimonials_item_content,
+  .sc_testimonials_qw-big .slider_one .sc_testimonials_item_content {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    letter-spacing: 0;
+  }
+  .sc_testimonials_qw-big .sc_testimonials_item_content + .sc_testimonials_item_author,
+  .sc_testimonials_qw-big .slider_one .sc_testimonials_item_content + .sc_testimonials_item_author {
+    margin: 1em 0 0 0;
+  }
+}
+
+/*# sourceMappingURL=qw_extension_testimonials.responsive.css.map */
